@@ -1,0 +1,7 @@
+{
+    "base_pin": 3,
+    "poll_rate_s": 5,
+    "high_temp_c": 55,
+    "deadzone_c": 10,
+    "startup_test": true 
+}

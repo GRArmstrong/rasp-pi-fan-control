@@ -1,0 +1,12 @@
+[Unit]
+Description="Fan Control"
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/python /opt/fan-control/fan-control.py
+
+[Install]
+WantedBy=multi-user.target
